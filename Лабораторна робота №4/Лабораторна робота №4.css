@@ -1,0 +1,295 @@
+.main_1 {background: #000000 url(http://rostov.cardana.ru/img/auto/audi/rs6_avant/rs6_avant_1b.jpg);
+         background-size: cover;
+         height: 300px;
+         position: relative;}
+
+@media (min-width: 1400px) {.main_1{height: 800px}}
+@media (min-width: 1200px) and (max-width: 1399px) {.main_1{height: 700px}}
+@media (min-width: 992px) and (max-width: 1199px) {.main_1{height: 600px}}
+@media (min-width: 768px) and (max-width: 991px) {.main_1{height: 500px}}
+@media (min-width: 576px) and (max-width: 767px) {.main_1{height: 400px}}
+@media (max-width: 575px) {.main_1{height: 300px}}
+
+.main_2 {background: #000000 url(https://i.pinimg.com/originals/e0/29/0a/e0290ab296e2375098bf16cef8399456.jpg);
+         background-size: cover;
+         height: 300px;}
+
+@media (min-width: 1400px) {.main_2{height: 800px}}
+@media (min-width: 1200px) and (max-width: 1399px) {.main_2{height: 700px}}
+@media (min-width: 992px) and (max-width: 1199px) {.main_2{height: 600px}}
+@media (min-width: 768px) and (max-width: 991px) {.main_2{height: 500px}}
+@media (min-width: 576px) and (max-width: 767px) {.main_2{height: 400px}}
+@media (max-width: 575px) {.main_2{height: 300px}}
+
+.header {background: linear-gradient(to bottom, #787878, #e9e9e9);
+         float: left;
+         height: 16%;
+         position: absolute;}
+
+.Menu {height: 100%;
+       float: left;
+       position: relative;}
+
+.Menu_div {font-family: Geneva, Arial, Helvetica, sans-serif;
+           font-size: 10px;
+           position: absolute;
+           bottom: 15%;}
+
+.Menu_div a {text-decoration: none;
+             color: #000000;}
+
+@media (min-width: 1400px) {.Menu_div{font-size: 25px;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.Menu_div{font-size: 23px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.Menu_div{font-size: 18px;}}
+@media (min-width: 768px) and (max-width: 991px) {.Menu_div{font-size: 13px;}}
+@media (min-width: 576px) and (max-width: 767px) {.Menu_div{font-size: 11px;}}
+@media (max-width: 575px) {.Menu_div{font-size: 10px;}}
+
+.button_header {float: left;
+                height: 100%;
+                position: relative;}
+
+.button {text-align: center;
+         background: linear-gradient(to bottom, #000000, #ffffff);
+         font-family: Geneva, Arial, Helvetica, sans-serif;
+         font-size: 7px;
+         border-radius: 10px;
+         height: 40%;
+         position: absolute;
+         bottom: 15%;
+         border: 3px inset black;
+         font-weight: bold;}
+
+@media (min-width: 1400px) {.button{font-size: 22px;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.button{font-size: 20px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.button{font-size: 15px;}}
+@media (min-width: 768px) and (max-width: 991px) {.button{font-size: 11px;}}
+@media (min-width: 576px) and (max-width: 767px) {.button{font-size: 8px;}}
+@media (max-width: 575px) {.button{font-size: 7px;}}
+
+
+.logo {float: left;
+       height: 100%;
+       position: relative;
+       text-align: center;}
+
+.content_block {float: left;
+                height: 42%;
+                top: 16%;
+                position: absolute;}
+
+.content__block {float: left;
+                 height: 42%;
+                 top: 58%;
+                 position: absolute;}
+
+.block_text {float: left;
+             margin-left: 5%;
+             margin-top: 5%; 
+             height: 50%;
+             border-radius: 25px 0px 25px 0px;
+             border: 3px inset black;
+             background: rgba(211, 211, 211, 0.7);
+             position: relative;}
+
+.title {float: left;
+        top: 5%;
+        left: 5%;
+        height: 45%;
+        text-align: left;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #000000;
+        position: absolute;}
+
+@media (min-width: 1400px) {.title{font-size: 30px;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.title{font-size: 28px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.title{font-size: 23px;}}
+@media (min-width: 768px) and (max-width: 991px) {.title{font-size: 18px;}}
+@media (min-width: 576px) and (max-width: 767px) {.title{font-size: 16px;}}
+@media (max-width: 575px) {.title{font-size: 15px;}}
+
+.text1 {float: left;
+        top: 54%;
+        left: 5%;
+        height: 45%;
+        text-align: center;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: #000000;
+        position: absolute;
+        bottom: 1%;}
+
+@media (min-width: 1400px) {.text1{font-size: 28px;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.text1{font-size: 26px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.text1{font-size: 21px;}}
+@media (min-width: 768px) and (max-width: 991px) {.text1{font-size: 16px;}}
+@media (min-width: 576px) and (max-width: 767px) {.text1{font-size: 14px;}}
+@media (max-width: 575px) {.text1{font-size: 13px;}}
+
+.row_black {float: left;
+            position: absolute;
+            top: 25%;
+            height: 25%;
+            background: rgba(0, 0, 0, 0.9);}
+
+.row_for_black {float: left;
+                height: 90%;
+                background: rgba(255, 255, 255, 0.1);
+                position: absolute;
+                bottom: 0%;}
+
+.row_red {float: left;
+          position: absolute;
+          top: 50%;
+          height: 25%;
+          background: rgba(255, 0, 0, 0.9);}
+
+.row_for_red {float: left;
+              height: 90%;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+              position: absolute;
+              bottom: 0%;}
+
+.row_yellow {float: left;
+             position: absolute;
+             top: 75%;
+             height: 25%;
+             background: rgba(255, 255, 0, 0.9);}
+
+.row_for_yellow {float: left;
+                 height: 70%;
+                 background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.19));
+                 position: absolute;
+                 bottom: 0%;}
+
+.row_middle {float: left;
+             position: absolute;
+             left: 15%;
+             height: 100%;}
+
+.blocks {float: left;
+         height: 100%;}
+
+.block {float: left;
+        width: 90%;
+        position: relative;
+        left: 10%;
+        height: 80%;
+        top: 15%;
+        background: linear-gradient(to bottom, #787878, #e9e9e9);
+        border-radius: 30px;
+        border: 3px inset black;}
+
+.text2 {float: left;
+        top: 20%;
+        left: 5%;
+        right: 5%;
+        height: 58%;
+        text-align: left;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size: 5px;
+        color: #000000;
+        position: absolute;}
+
+@media (min-width: 1400px) {.text2{font-size: 12px;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.text2{font-size: 10px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.text2{font-size: 9px;}}
+@media (min-width: 768px) and (max-width: 991px) {.text2{font-size: 7px;}}
+@media (min-width: 576px) and (max-width: 767px) {.text2{font-size: 6px;}}
+@media (max-width: 575px) {.text2{font-size: 5px;}}
+
+.button_block {float: left;
+               top: 80%;
+               bottom: 1%;
+               left: 5%;
+               right: 5%;
+               position: absolute;}
+
+.button_ {text-align: center;
+          background: linear-gradient(to bottom, #000000, #ffffff);
+          font-family: Geneva, Arial, Helvetica, sans-serif;
+          font-size: 7px;
+          border-radius: 10px;
+          height: 100%;
+          position: absolute;
+          border: 3px inset black;
+          font-weight: bold;
+          bottom: 0;
+          left: 4%;}
+
+@media (min-width: 1400px) {.button_{font-size: 22px;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.button_{font-size: 20px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.button_{font-size: 15px;}}
+@media (min-width: 768px) and (max-width: 991px) {.button_{font-size: 11px;}}
+@media (min-width: 576px) and (max-width: 767px) {.button_{font-size: 8px;}}
+@media (max-width: 575px) {.button_{font-size: 7px;}}
+
+.text_in_round {float: left;
+                position: relative;
+                height: 84%;}
+
+.round {float: left;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        height: 33%;
+        border-radius: 100%;
+        background: rgba(211, 211, 211, 0.7);
+        position: relative;}
+
+.text3 {float: left;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        right: 5%;
+        height: 100%;
+        text-align: left;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: #000000;
+        bottom: 10%;}
+
+@media (min-width: 1400px) {.text3{font-size: 28px;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.text3{font-size: 26px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.text3{font-size: 21px;}}
+@media (min-width: 768px) and (max-width: 991px) {.text3{font-size: 16px;}}
+@media (min-width: 576px) and (max-width: 767px) {.text3{font-size: 14px;}}
+@media (max-width: 575px) {.text3{font-size: 13px;}}
+
+.end {float: left;
+      position: relative;
+      height: 20%;
+      background: #000000;}
+
+.end_1 {float: left;
+        position: absolute;
+        height: 70%;
+        text-align: left;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: #ffffff;}
+
+@media (min-width: 1400px) {.end_1{font-size: 18px;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.end_1{font-size: 17px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.end_1{font-size: 16px;}}
+@media (min-width: 768px) and (max-width: 991px) {.end_1{font-size: 15px;}}
+@media (min-width: 576px) and (max-width: 767px) {.end_1{font-size: 14px;}}
+@media (max-width: 575px) {.end_1{font-size: 13px;}}
+
+.end_2 {float: left;
+        position: absolute;
+        left: 50%;
+        height: 30%;
+        top:70%;
+        text-align: right;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: #ffffff;}
+
+@media (min-width: 1400px) {.end_2{font-size: 18px;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.end_2{font-size: 17px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.end_2{font-size: 16px;}}
+@media (min-width: 768px) and (max-width: 991px) {.end_2{font-size: 15px;}}
+@media (min-width: 576px) and (max-width: 767px) {.end_2{font-size: 14px;}}
+@media (max-width: 575px) {.end_2{font-size: 13px;}}
